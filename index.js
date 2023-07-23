@@ -45,11 +45,37 @@ age = prompt("Сколько вам лет?");
 alert(age);
 
 
-user = {
+const user = {
     name: 'Alex',
     age: 33,
     isAdmin: true
 }
+
+
+user['city of residence'] = true;
+
+
+user['age'] = 35;
+
+
+delete user['city of residence'];
+
+
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+console.log(user[info]);
+alert(user[info]);
+
+
+let userName = prompt('Введите ваше имя');
+alert(`Привет, ${userName}!`);
+
+
+
+
+
+
+
+
 
 
 
